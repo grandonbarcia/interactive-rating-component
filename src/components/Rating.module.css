@@ -1,0 +1,59 @@
+.panel {
+  background: grey;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 23rem;
+  /* height: 23rem; */
+  text-align: left;
+}
+
+.star {
+  background: rgb(65, 56, 56);
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.description {
+  color: lightgrey;
+  font-size: 1rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.rating {
+  background-color: lightgrey;
+  border-radius: 100%;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.rating:hover {
+  background-color: rgb(77, 74, 74);
+}
+
+.rating:focus {
+  background: orange;
+}
+
+.submit {
+  width: 100%;
+  background-color: orange;
+  border-radius: 2rem;
+  color: white;
+}
+
+.submit:focus {
+  color: orange;
+  background-color: white;
+}
