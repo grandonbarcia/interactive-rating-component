@@ -3,8 +3,17 @@
   padding: 2rem;
   border-radius: 2rem;
   width: 23rem;
-  /* height: 23rem; */
+  height: 21rem;
   text-align: left;
+}
+
+.thankYouPanel {
+  background: grey;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 23rem;
+  height: 21rem;
+  text-align: center;
 }
 
 .star {
@@ -56,4 +65,16 @@
 .submit:focus {
   color: orange;
   background-color: white;
+}
+
+.selected {
+  color: orange;
+  background-color: rgb(104, 103, 103);
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  border-radius: 40px;
 }
